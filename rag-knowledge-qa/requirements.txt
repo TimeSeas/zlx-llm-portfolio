@@ -1,0 +1,22 @@
+# ========== LangChain 核心 ==========
+langchain
+langchain-community
+langchain-ollama          # Ollama LLM 集成
+
+# ========== 文档加载 ==========
+pypdf                     # PDF 解析
+pdfplumber                # 复杂 PDF 表格提取
+unstructured              # 通用文档解析（备用）
+
+# ========== 向量化 & 向量库 ==========
+sentence-transformers     # 本地 Embedding 模型
+chromadb                  # 向量数据库
+
+# ========== Web API（进阶阶段）==========
+fastapi
+uvicorn
+python-multipart          # 文件上传
+
+# ========== 工具 ==========
+python-dotenv             # 环境变量管理
+tiktoken                  # Token 计数

@@ -1,0 +1,29 @@
+# 环境变量
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 数据文件（原始文档和向量库不提交）
+data/documents/*
+!data/documents/.gitkeep
+data/vector_store/*
+!data/vector_store/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
