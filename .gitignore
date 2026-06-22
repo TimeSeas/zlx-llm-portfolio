@@ -1,0 +1,33 @@
+# Model weights (too large for GitHub)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Model directories
+models/
+**/checkpoints/
+**/final_lora/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Training artifacts
+output/logs/
+output/qwen2.5-lora/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env

@@ -1,0 +1,29 @@
+{
+  "model": "Qwen2.5-1.5B-Instruct",
+  "method": "QLoRA (4-bit NF4 + LoRA r=8 alpha=16)",
+  "train_samples": 11,
+  "eval_samples": 2,
+  "epochs": 3,
+  "lr": 0.0002,
+  "total_minutes": 0.43715479771296184,
+  "final_train_loss": 3.1008450984954834,
+  "final_eval_loss": 4.4868597984313965,
+  "best_eval_loss": Infinity,
+  "history": {
+    "train_loss": [
+      6.137600421905518,
+      5.269338130950928,
+      3.1008450984954834
+    ],
+    "eval_loss": [
+      6.739833354949951,
+      5.512338161468506,
+      4.4868597984313965
+    ],
+    "steps": [
+      2,
+      4,
+      6
+    ]
+  }
+}
